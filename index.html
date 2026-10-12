@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Книга достижений и рекордов школы — главные победы наших учеников.">
+  <title>Книга достижений и рекордов школы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="На главную">
+        <span class="brand-mark" aria-hidden="true">К</span>
+        <span class="brand-copy"><strong>Книга достижений</strong><small>нашей школы</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#about">О проекте</a>
+        <a href="#catalog">Достижения</a>
+        <a href="#footer">Контакты</a>
+      </nav>
+      <button class="button button-outline header-cta" type="button" data-open-modal>Предложить рекорд</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Истории, которыми мы гордимся</p>
+          <h1>Книга достижений<br>и рекордов <em>школы</em></h1>
+          <p class="hero-lead">Платформа для фиксации главных академических, спортивных и творческих побед наших учеников.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#catalog">Смотреть рекорды <span aria-hidden="true">↘</span></a>
+            <span class="hero-note">Каждое достижение<br>заслуживает истории</span>
+          </div>
+        </div>
+        <div class="hero-art reveal reveal-delay">
+          <div class="hero-frame">
+            <img src="assets/hero-achievements.jpg" alt="Кубок, медали и книги — символы школьных достижений">
+          </div>
+          <div class="hero-seal" aria-hidden="true"><span>2026</span><small>год<br>основания</small></div>
+        </div>
+      </div>
+      <div class="container hero-rule"><span>Учиться</span><i></i><span>Достигать</span><i></i><span>Вдохновлять</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="section-index">01 / О проекте</p>
+          <h2>Место, где успех<br>становится <em>наследием</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>Книга достижений объединяет истории учеников, которые своим трудом, талантом и смелостью делают нашу школу сильнее.</p>
+          <p>Мы сохраняем важные победы, чтобы сегодняшние рекорды вдохновляли следующие поколения.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Статистика достижений">
+      <div class="container stats-grid">
+        <article class="stat-card"><span class="stat-icon">✦</span><strong>48</strong><p>Академические<br>победы</p><small>Олимпиады · Наука</small></article>
+        <article class="stat-card featured"><span class="stat-icon">◆</span><strong>31</strong><p>Спортивные<br>рекорды</p><small>Соревнования · Кубки</small></article>
+        <article class="stat-card"><span class="stat-icon">✺</span><strong>27</strong><p>Творчество<br>и активизм</p><small>Конкурсы · Волонтёрство</small></article>
+      </div>
+    </section>
+
+    <section class="catalog section" id="catalog">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-index">02 / Наши достижения</p><h2>Гордость <em>школы</em></h2></div>
+          <p>Знакомьтесь с учениками, чьи результаты уже стали частью истории нашей школы.</p>
+        </div>
+
+        <div class="catalog-toolbar">
+          <label class="search-field">
+            <span class="sr-only">Поиск по имени</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+            <input type="search" placeholder="Найти ученика по имени">
+          </label>
+          <button class="button button-navy toolbar-cta" type="button" data-open-modal>Предложить рекорд <span>＋</span></button>
+        </div>
+        <div class="filters" aria-label="Фильтры по категориям">
+          <button class="filter active" type="button">Все достижения <sup>106</sup></button>
+          <button class="filter" type="button">Академические <sup>48</sup></button>
+          <button class="filter" type="button">Спортивные <sup>31</sup></button>
+          <button class="filter" type="button">Творчество и активизм <sup>27</sup></button>
+        </div>
+
+        <div class="cards-grid">
+          <article class="achievement-card">
+            <a class="card-image portrait-one" href="achievement.html" aria-label="Открыть достижение Софьи Морозовой"><span class="card-number">01</span><span class="card-arrow">↗</span></a>
+            <div class="card-body"><span class="tag tag-academic">Академические достижения</span><h3><a href="achievement.html">Софья Морозова</a></h3><p>Победитель Всероссийской олимпиады по физике</p><a class="text-link" href="achievement.html">Читать историю <span>→</span></a></div>
+          </article>
+          <article class="achievement-card">
+            <a class="card-image portrait-two" href="achievement.html" aria-label="Открыть достижение Артёма Волкова"><span class="card-number">02</span><span class="card-arrow">↗</span></a>
+            <div class="card-body"><span class="tag tag-sport">Спортивные рекорды</span><h3><a href="achievement.html">Артём Волков</a></h3><p>Золото областного первенства по лёгкой атлетике</p><a class="text-link" href="achievement.html">Читать историю <span>→</span></a></div>
+          </article>
+          <article class="achievement-card">
+            <a class="card-image portrait-three" href="achievement.html" aria-label="Открыть достижение Алисы Беляевой"><span class="card-number">03</span><span class="card-arrow">↗</span></a>
+            <div class="card-body"><span class="tag tag-creative">Творчество и активизм</span><h3><a href="achievement.html">Алиса Беляева</a></h3><p>Автор городского экологического проекта «Живой двор»</p><a class="text-link" href="achievement.html">Читать историю <span>→</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="proposal section">
+      <div class="container proposal-inner">
+        <div><p class="section-index light">03 / Ваша история</p><h2>Знаете о достижении,<br>которым стоит <em>гордиться?</em></h2></div>
+        <div><p>Расскажите нам о рекорде ученика. Мы свяжемся с вами, уточним детали и после проверки добавим историю в Книгу достижений.</p><button class="button button-gold" type="button" data-open-modal>Предложить рекорд <span>↗</span></button></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="container footer-grid">
+      <div class="brand footer-brand"><span class="brand-mark">К</span><span class="brand-copy"><strong>Книга достижений</strong><small>нашей школы</small></span></div>
+      <div><small>Навигация</small><a href="#about">О проекте</a><a href="#catalog">Достижения</a><button type="button" data-open-modal>Предложить рекорд</button></div>
+      <div><small>Контакты</small><p>Контактные данные школы<br>будут добавлены позднее</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Книга достижений школы</span><span>Создано, чтобы помнить главное</span></div>
+  </footer>
+
+  <div class="modal" id="proposal-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="Закрыть форму" data-close-modal>×</button>
+      <p class="section-index">Предложить рекорд</p>
+      <h2 id="modal-title">Расскажите<br><em>об успехе</em></h2>
+      <p class="modal-intro">Заявка не публикуется автоматически. Администратор проверит информацию и свяжется с вами.</p>
+      <form class="proposal-form">
+        <label><span>ФИО ученика *</span><input type="text" placeholder="Например, Иван Петров"></label>
+        <label><span>Категория *</span><select><option>Выберите категорию</option><option>Академические достижения</option><option>Спортивные рекорды</option><option>Творчество и активизм</option></select></label>
+        <label class="wide"><span>Описание рекорда *</span><textarea rows="4" placeholder="Расскажите, в чём состоит достижение"></textarea></label>
+        <label><span>Ссылка на видео</span><input type="url" placeholder="https://"></label>
+        <label><span>Контакт для связи *</span><input type="text" placeholder="Телефон или email"></label>
+        <label class="file-field wide"><input type="file"><span><b>＋</b> Прикрепить подтверждающий файл</span></label>
+        <div class="wide form-footer"><p>Нажимая кнопку, вы соглашаетесь на обработку данных после утверждения текста согласия.</p><button class="button button-gold" type="button">Отправить заявку <span>→</span></button></div>
+      </form>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
